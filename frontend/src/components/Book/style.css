@@ -1,0 +1,43 @@
+.book-caption img {
+
+    margin-left: 10%;
+    margin-bottom: 20%;
+    padding: 0px;
+    background-color: black;
+    width: 300px;
+    
+  }
+  
+.book-caption {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-top: 100px;
+    padding-left: 150px;
+    padding-top:50px;
+}
+
+.book-caption-review {
+    top:0px;
+    color: rgb(79, 77, 77);
+    width: 50%;
+    display:inline-block;
+    margin: 30px;
+}
+
+.button-control
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bt_PC
+{
+    color: red;
+    
+}
+
+
+
+

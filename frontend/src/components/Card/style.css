@@ -1,0 +1,49 @@
+.card {
+  margin-top: 30px;
+  border-radius: 16px;
+  overflow: hidden;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 350px;
+  height: 500px;
+}
+
+.card-body {
+  border: 2px solid transparent;
+  border-top: none;
+  border-radius: 16px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  transition: 0.3s;
+}
+
+.card-body h5 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card:hover .card-body{
+  border-color: #35a22c;
+}
+
+.card-text
+{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 306px;
+
+}
+
+.card-img-top
+{
+  width: 280px;
+  height: 300px;
+  margin: auto;
+  margin-top:30px;
+}
+
+.card-title{
+  text-transform: uppercase;
+}

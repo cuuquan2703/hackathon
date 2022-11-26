@@ -1,0 +1,43 @@
+#carousel .carousel-item {
+  height: 100vh;
+  min-height: 500px;
+}
+#carousel .carousel-caption img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#carousel .carousel-caption {
+  bottom: 50%;
+  transform: translateY(50%);
+}
+#carousel-caption-review h4{
+  text-transform: uppercase;
+}
+#carousel .carousel-item::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+.carousel-indicators li {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+#carousel .carousel-indicators .active {
+  background-color: white;
+}
+
+.carousel-caption-review
+{
+  display:inline-block;
+  margin: 30px;
+}
+

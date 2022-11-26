@@ -1,0 +1,48 @@
+.clear {
+  clear: both;
+}
+.footer{
+  background-color: #EEEBE4;
+  padding: 50px 30px 0 150px;
+  color: #3b3735;
+}
+.footer h3{
+  font-size: 18px;
+  margin-bottom: 21px;
+}
+.footer__about{
+  float: left;
+  width: 50%;
+  line-height: 28px;
+  padding: 0 20px;
+}
+.footer__list{
+  float: left;
+  width: 50%;
+  padding: 0 20px;
+}
+.footer__nav{
+  float: left;
+  width: 50%;
+}
+.footer__nav li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+.footer__nav a{
+  text-decoration: none;
+  color: #3b3735;
+}
+.footer__copyrights{
+  text-align: center;
+  padding-top: 30px;
+  border-top: solid 1px black;
+}
+.web
+{
+  color: #54b435;
+}
+.footer__about h3, .footer__nav h3
+{
+  font-size: 30px;
+}

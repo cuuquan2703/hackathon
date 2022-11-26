@@ -1,0 +1,65 @@
+.mytrees
+{
+
+    margin:10% 0% 0 0;
+}
+.tree1, .tree2
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.tree1
+{
+    margin-right: 20%;
+}
+
+.tree2
+{
+    margin-left: 20%;
+}
+
+.card-img-left
+{
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+.card 
+{
+    height: fit-content;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.name
+{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.a{
+    font-weight: 600px;
+}
+
+.cmt-img
+{
+    width: 200px;
+    height: auto;
+}
+.img{
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    margin: auto;
+}
+
+.input{
+    margin-bottom: 30px;
+}
+
+.mytrees .navbar-nav .active .nav-link {
+    color: white;
+  }
+

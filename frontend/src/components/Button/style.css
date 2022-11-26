@@ -1,0 +1,30 @@
+.nav {
+  justify-content: center;
+  margin: 50px 0 !important;
+}
+
+.nav-pills .nav-link {
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 0 10px;
+  color: black;
+  text-transform: capitalize;
+
+}
+
+.nav-pills .nav-link:active {
+  background: #35a22c;
+  color: white; 
+  border-color: #35a22c;
+}
+
+.nav-link:hover {
+  background: #35a22c;
+  color: white; 
+  border-color: #35a22c;
+}
+
+.button-control .nav-link
+{
+  width: 200px;
+}

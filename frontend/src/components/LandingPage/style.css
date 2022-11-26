@@ -1,0 +1,18 @@
+#pills-tab {
+  background-color: red;
+}
+
+.nav-pills {
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 0 10px;
+  color: black;
+  text-transform: capitalize;
+}
+
+.nav-pills {
+  background: #35a22c;
+  color: white; 
+  border-color: #35a22c;
+}
+
